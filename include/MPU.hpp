@@ -71,7 +71,7 @@ class MPU
     MPU();
     explicit MPU(mpu_bus_t& bus);
     MPU(mpu_bus_t& bus, mpu_addr_handle_t addr);
-    ~MPU();
+  ~MPU();
     //! \}
     //! \name Basic
     //! \{
